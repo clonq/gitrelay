@@ -1,0 +1,31 @@
+{
+  "name": "gitrelay",
+  "description": "A simple relay that transfers files from a git repository via a POST webhook",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ovi Comes"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "git",
+    "webhook",
+    "bitbucket",
+    "github"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clonq/gitrelay"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1"
+  },
+  "readme": "A simple webhook receiver that listens to a remote git repository changes and deploys files received via a POST request to predefined locations on the local machine or a remote one. Basic (continuous-integration) scenario: files updated in a Bitbucket repository are pushed to a server on AWS"
+}
