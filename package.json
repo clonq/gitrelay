@@ -1,7 +1,7 @@
 {
   "name": "gitrelay",
   "description": "A simple relay that transfers files from a git repository via a POST webhook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Ovi Comes"
   },
@@ -24,13 +24,7 @@
   "engines": {
     "node": "*"
   },
-  "devDependencies": {
-    "mocha": "~1.13.0",
-    "chai": "~1.8.1"
-  },
   "dependencies": {
-    "gith": "~1.0.4",
     "config": "~0.4.36",
-    "yaml": "~0.2.3"
   }
 }

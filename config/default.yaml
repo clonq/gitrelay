@@ -1,8 +1,0 @@
-server:
-  port: 10101
-source:
-  type: Bitbucket
-  repo: 'clonq/realmarkable'
-target:
-  type: 'local directory'
-  dir: '/test/dir'
