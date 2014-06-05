@@ -4,8 +4,8 @@
 	},
 	"routes": [
 		{
-			"source": { "type": "bitbucket", "repo": "realmarkable.git", "branch": "develop" },
-			"target": { "destination": "local", "type": "git", "repo": "/Users/ovi/projects/realmarkable" }
+			"source": { "type": "bitbucket", "repo": "your_repo", "branch": "develop" },
+			"target": { "destination": "local", "type": "git", "repo": "your_repo_dir" }
 		}
 	]
 }
